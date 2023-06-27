@@ -3,7 +3,7 @@ const BLOG = {
   author: 'SatoruOhkita',
   email: '',
   link: 'https://nobelium.vercel.app',
-  description: '備忘録。板書や学びのメモ。',
+  description: '板書や学びのメモ。',
   lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Tokyo', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/satoruohkita417',
   seo: {
-    keywords: ['Blog', 'Teacher', 'School','Notion'],
+    keywords: ['Blog', 'Teacher', 'School','Notion', '板書', '授業'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
